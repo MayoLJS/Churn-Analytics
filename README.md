@@ -106,10 +106,12 @@ CREATE VIEW vw_JoinData AS
     FROM prod_Churn 
     WHERE Customer_Status IN ('Joined');
 ```
+link to full query >> [SQL](scripts/SQLQuery.sql)
 
 ## Power BI
 
 ### 1. Data Transformation in Power BI:
+![sqlload-image](images/Load%20Data%20in%20Power%20BI%20from%20SSMS.png)
 - Import the data using Power Query from the `prod_Churn` table.
 - Create additional columns: 
   - Churn Status
@@ -145,8 +147,9 @@ Churn Rate = [Total Churn] / [Total customers];
 
 ### 4. Enhancing the Report:
 - Adding drop-downs for interaction and tooltips for churn reasons.
-- Customizing the background using PowerPoint for a polished look.
+- Customizing the background using PowerPoint for a polished look. link to ppt >> [PowerPoint](other%20assets/Background%20Mockup.pptx)
 - Using **Narrative Visual** for AI-based report summary.
+  ![narrative-image](images/Narrative%20Visual.png)
 
 ## Analysis
 - **Key Insights**:
@@ -158,11 +161,14 @@ Churn Rate = [Total Churn] / [Total customers];
 - **Recommended Actions**:
   - Improve **Device Protection Plan**, **Online Backup**, and **Premium Support** offerings.
   - Address pain points in **internet, phone, and unlimited data services**.
+[Interactive Report](https://app.powerbi.com/view?r=eyJrIjoiOTc1N2VlNGQtOGMwOC00MDM2LWE0ZWMtZjNkNzBmZWU2NDIwIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)  
+
+
 
 ## Predicting Future Churners
-- We can predict future churners using the **Random Forest** algorithm, which can be integrated into the Power BI report.
+- We can predict future churners using the **Random Forest** algorithm, which can be integrated into the Power BI report. link to notebook >> [Jupyter Notebook](scripts/Churn%20Prediction.ipynb)
 
 ## Conclusion
 This project provides a comprehensive analysis of customer churn, allowing businesses to better understand customer behavior and implement strategies to reduce churn and improve customer retention.
-Project thought process can be seen here docs/Project documentation and Thought process.docx
+Project thought process can be seen here [Word Document](docs/Project%20documentation%20and%20Thought%20process.docx)
 
