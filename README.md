@@ -1,5 +1,6 @@
 
 # Customer Churn Analysis Project
+![dash-image](images/main20%dashboard.png)
 
 This project involves creating an ETL pipeline and Power BI dashboard to analyze customer data and identify areas for marketing campaigns and predict future churners.
 
@@ -163,4 +164,5 @@ Churn Rate = [Total Churn] / [Total customers];
 
 ## Conclusion
 This project provides a comprehensive analysis of customer churn, allowing businesses to better understand customer behavior and implement strategies to reduce churn and improve customer retention.
+Project thought process can be seen here docs/Project documentation and Thought process.docx
 
