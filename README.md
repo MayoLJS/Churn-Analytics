@@ -1,5 +1,5 @@
 
-# Customer Churn Analysis Project
+# Customer Analytics: Telephone subscribers churn analytics
 ![dash-image](images/main%20dashboard.png)
 
 This project involves creating an ETL pipeline and Power BI dashboard to analyze customer data and identify areas for marketing campaigns and predict future churners.
